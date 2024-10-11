@@ -1,0 +1,40 @@
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+}
+/* Warna untuk header kolom */
+th {
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+/* Warna untuk kolom Senin */
+tr:nth-child(1) td:nth-child(1),
+tr:nth-child(2) td:nth-child(1),
+tr:nth-child(3) td:nth-child(1) {
+    background-color: cyan;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+/* Warna untuk kolom Selasa */
+tr:nth-child(1) td:nth-child(2),
+tr:nth-child(2) td:nth-child(2),
+tr:nth-child(3) td:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+/* Warna untuk kolom Rabu */
+tr:nth-child(1) td:nth-child(3),
+tr:nth-child(2) td:nth-child(3),
+tr:nth-child(3) td:nth-child(3) {
+    background-color: pink;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
